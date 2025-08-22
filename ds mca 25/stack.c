@@ -63,7 +63,8 @@ void main()
 
     else
       {
-       for(i=0;i<=top;i++)
+        printf("The Stack is\n");
+       for(i=top;i>=0;i--)
           {
         printf("\n%d",arr[i]);
           }
